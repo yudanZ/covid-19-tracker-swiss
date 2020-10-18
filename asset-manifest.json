@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/covid-19-tracker-swiss/static/css/main.144dc6d1.chunk.css",
+    "main.js": "/covid-19-tracker-swiss/static/js/main.a1bb3a8e.chunk.js",
+    "main.js.map": "/covid-19-tracker-swiss/static/js/main.a1bb3a8e.chunk.js.map",
+    "runtime-main.js": "/covid-19-tracker-swiss/static/js/runtime-main.a0a6bfe7.js",
+    "runtime-main.js.map": "/covid-19-tracker-swiss/static/js/runtime-main.a0a6bfe7.js.map",
+    "static/js/2.33b67a10.chunk.js": "/covid-19-tracker-swiss/static/js/2.33b67a10.chunk.js",
+    "static/js/2.33b67a10.chunk.js.map": "/covid-19-tracker-swiss/static/js/2.33b67a10.chunk.js.map",
+    "index.html": "/covid-19-tracker-swiss/index.html",
+    "precache-manifest.79436769685a93d971a026352bae9c5a.js": "/covid-19-tracker-swiss/precache-manifest.79436769685a93d971a026352bae9c5a.js",
+    "service-worker.js": "/covid-19-tracker-swiss/service-worker.js",
+    "static/css/main.144dc6d1.chunk.css.map": "/covid-19-tracker-swiss/static/css/main.144dc6d1.chunk.css.map",
+    "static/js/2.33b67a10.chunk.js.LICENSE.txt": "/covid-19-tracker-swiss/static/js/2.33b67a10.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a0a6bfe7.js",
+    "static/js/2.33b67a10.chunk.js",
+    "static/css/main.144dc6d1.chunk.css",
+    "static/js/main.a1bb3a8e.chunk.js"
+  ]
+}
