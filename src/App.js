@@ -1,8 +1,7 @@
 import React from 'react';
-import {
+import { 
   BrowserRouter as Router,
-  Route,
-} from "react-router-dom";
+  Route } from "react-router-dom";
 import Navigation from './components/Navigation';
 import OverViewPage from './pages/OverViewPage';
 import ListCountries from './pages/ListCountries';
@@ -27,7 +26,7 @@ class App extends React.Component {
   render(){
     //console.log(this.data);
     return (
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <div className="App">
           <Navigation />
           <Route exact path='/' component={OverViewPage} />
