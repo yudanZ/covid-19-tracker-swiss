@@ -30,10 +30,10 @@ class App extends React.Component {
       <Router>
         <div className="App">
           <Navigation />
-          <Route exact path='/' component={OverViewPage} />
-          <Route exact path='/list' component={ListCountries} />
-          <Route exact path='/symptions' component={SymptionsPage} />
-          <Route exact path='/provention' component={ProventionPage} />
+          <Route exact path='./' component={OverViewPage} />
+          <Route exact path='./list' component={ListCountries} />
+          <Route exact path='./symptions' component={SymptionsPage} />
+          <Route exact path='./provention' component={ProventionPage} />
           <Footer />
         </div>
       </Router>
