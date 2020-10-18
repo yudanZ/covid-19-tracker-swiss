@@ -17,10 +17,10 @@ const Navigation = () => {
                         <Link className="nav-link" to="/list">List of countries and areas</Link>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="/symptions">Symptoms</a>
+                        <Link className="nav-link" to="/symptions">Symptoms</Link>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="/provention">Provention</a>
+                        <Link className="nav-link" to="/provention">Provention</Link>
                     </li>
                 </ul>
             </div>
