@@ -10,17 +10,17 @@ const Navigation = () => {
             </button>
             <div className="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul className="navbar-nav ml-auto">
-                    <li className="nav-item active">
+                    <li className="nav-item ">
                         <Link className="nav-link" to="/">Overview Situation <span className="sr-only"></span></Link>
                     </li>
                     <li className="nav-item">
                         <Link className="nav-link" to="/list">List of countries and areas</Link>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#1">Risk List</a>
+                        <a className="nav-link" href="/symptions">Symptoms</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#1">Risk List</a>
+                        <a className="nav-link" href="/provention">Provention</a>
                     </li>
                 </ul>
             </div>

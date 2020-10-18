@@ -6,6 +6,9 @@ import {
 import Navigation from './components/Navigation';
 import OverViewPage from './pages/OverViewPage';
 import ListCountries from './pages/ListCountries';
+import SymptionsPage from './pages/Symptions';
+import ProventionPage from './pages/ProventionPage';
+import Footer from './components/Footer/Footer';
 import './App.css';
 
 class App extends React.Component {
@@ -29,6 +32,9 @@ class App extends React.Component {
           <Navigation />
           <Route exact path='/' component={OverViewPage} />
           <Route exact path='/list' component={ListCountries} />
+          <Route exact path='/symptions' component={SymptionsPage} />
+          <Route exact path='/provention' component={ProventionPage} />
+          <Footer />
         </div>
       </Router>
     );

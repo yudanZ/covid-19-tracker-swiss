@@ -46,7 +46,7 @@ class ListCountries extends React.Component{
         return (
             
             <div className='container list-container'>
-                <h2>List of countries and areas
+                <h2>New coronavirus: Mandatory quarantine for persons arriving in Switzerland
                 </h2>
                 <p className=''>
                 The countries and areas with a high risk of infection are set down in the Covid-19 Ordinance on International Passenger Transport Measures. This list is regularly updated. The decisive factor in whether a country is included on the list or not is the data of ECDC (European Centre for Disease Prevention and Control). Areas bordering Switzerland can be exempted from inclusion on the list despite a corresponding incidence of the new coronavirus.
@@ -55,7 +55,10 @@ class ListCountries extends React.Component{
                 <p>
                 If a country is on the list, this includes all of its areas, islands and overseas territories – even if they are not listed separately. Switzerland’s neighbouring countries are exempted from this regulation. In the case of these countries, it is not the entire country that is listed, but rather regions. Further information in this regard can be found on the page
                 </p>
+                <p><strong> List of countries and areas shows below</strong></p>
                 <p><strong> List valid upon arriving in Switzerland from 12.10.2020</strong></p>
+
+                <p><strong><a  href='https://www.bag.admin.ch/bag/en/home/krankheiten/ausbrueche-epidemien-pandemien/aktuelle-ausbrueche-epidemien/novel-cov/empfehlungen-fuer-reisende/quarantaene-einreisende.html'>More Info Here</a></strong></p>
                 <div>
                     <p className='text-center'>
                         <a className="btn btn-light mr-2" data-toggle="collapse" href="#neighbour" role="button" aria-expanded="false" aria-controls="neighbour">
@@ -66,7 +69,7 @@ class ListCountries extends React.Component{
                         Countries and areas
                         </a>
                     </p>
-                    <div className="collapse" id="neighbour">
+                    <div className="" id="neighbour">
                         <SearchBox searchChange={this.onSearchChange}/>
                         
                         <div className="card card-body">
