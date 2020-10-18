@@ -1,6 +1,6 @@
 {
   "name": "covid-ch",
-  "homepage": "http://yudanZ.github.io/covid-19-tracker-swiss",
+  "homepage": "http://yudanZ.github.io/covid-19-tracker-swiss/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
