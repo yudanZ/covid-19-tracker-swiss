@@ -1,26 +1,39 @@
 import React from 'react';
-import logo from './logo.svg';
+import {
+  BrowserRouter as Router,
+  Route,
+} from "react-router-dom";
+import Navigation from './components/Navigation';
+import OverViewPage from './pages/OverViewPage';
+import ListCountries from './pages/ListCountries';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  constructor(props){
+    super(props);
+
+    this.state = {
+      data: [],
+      isLoading: false,
+    }
+
+    
+  }
+  
+ 
+  render(){
+    //console.log(this.data);
+    return (
+      <Router>
+        <div className="App">
+          <Navigation />
+          <Route exact path='/' component={OverViewPage} />
+          <Route exact path='/list' component={ListCountries} />
+        </div>
+      </Router>
+    );
+  }
+  
 }
 
 export default App;

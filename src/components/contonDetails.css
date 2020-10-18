@@ -1,0 +1,23 @@
+.contondetails-container{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    margin: 0 auto;
+}
+
+.contondetails-left {
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+
+
+@media only screen and ( max-width: 900px){
+    .contondetails-container{
+        
+        flex-direction: column;
+        justify-items: center;
+        margin: 0 auto;
+    }
+}

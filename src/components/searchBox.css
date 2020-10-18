@@ -1,0 +1,11 @@
+.input_container {
+    margin: 20px;
+    width: 50%;
+    text-align: center;
+}
+
+.input_container input{
+    margin-left: 50%;
+    text-align: center;
+    height: 4rem;
+}
