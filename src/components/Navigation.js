@@ -11,16 +11,16 @@ const Navigation = () => {
             <div className="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul className="navbar-nav ml-auto">
                     <li className="nav-item ">
-                        <Link className="nav-link" to="./">Overview Situation <span className="sr-only"></span></Link>
+                        <Link className="nav-link" to="/">Overview Situation <span className="sr-only"></span></Link>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link" to="./list">List of countries and areas</Link>
+                        <Link className="nav-link" to="/list">List of countries and areas</Link>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="./symptions">Symptoms</a>
+                        <a className="nav-link" href="/symptions">Symptoms</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="./provention">Provention</a>
+                        <a className="nav-link" href="/provention">Provention</a>
                     </li>
                 </ul>
             </div>
