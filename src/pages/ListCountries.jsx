@@ -69,7 +69,7 @@ class ListCountries extends React.Component{
                         Countries and areas
                         </a>
                     </p>
-                    <div className="" id="neighbour">
+                    <div className="collapse show" id="neighbour">
                         <SearchBox searchChange={this.onSearchChange}/>
                         
                         <div className="card card-body">
