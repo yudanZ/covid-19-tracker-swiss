@@ -19,19 +19,19 @@ const OverViewInfo = (props) => {
             <tbody>
                 <tr>
                 <th scope="row">Laboratory Confirmed Infections</th>
-                <td>{props.latestInfo.news}</td>
-                <td>{props.latestInfo.totalconfirmed}</td>
-                
+                <td>{props.latestInfo.news === 0 ? '--' : props.latestInfo.news}</td>
+                <td>{props.latestInfo.totalconfirmed === 0 ? '--' : props.latestInfo.totalconfirmed}</td>
+                 
                 </tr>
                 <tr>
                 <th scope="row">Recovered</th>
-                <td>{props.latestInfo.newrecovered}</td>
+                <td>{props.latestInfo.newrecovered === 0 ? '--' : props.latestInfo.newrecovered}</td>
                 <td>{props.latestInfo.totalrecovered}</td>
                
                 </tr>
                 <tr>
                 <th scope="row">Deaths</th>
-                <td >{props.latestInfo.newdeath}</td>
+                <td >{props.latestInfo.newdeath === '0' ? '--' : props.latestInfo.newdeath}</td>
                 <td>{props.latestInfo.totaldeath}</td>
                 </tr>
                 <tr>

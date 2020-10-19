@@ -13,7 +13,7 @@ class OverView extends React.Component {
             totalStatus : [],
             newStatus: null,
             options: [],
-            earliestDate:1582329600000
+            earliestDate:1579651200000
 
         }
     }
@@ -122,7 +122,7 @@ class OverView extends React.Component {
     }
     render(){
         const {newStatus, options} = this.state;
-        //console.log(newStatus)
+        //console.log(options)
         
        
         return(
