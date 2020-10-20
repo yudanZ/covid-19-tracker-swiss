@@ -34,7 +34,7 @@ class OverView extends React.Component {
           this.setState({ isLoading: !this.state.isLoading});
           //console.log(totalStatus);
           this.setState({totalStatus: totalStatus});
-          //console.log( this.state)
+          console.log( this.state)
           const latestInfos = totalStatus.slice( totalStatus.length -2, totalStatus.length);
           //console.log(latestInfos)
           this.calculateStatus(latestInfos);

@@ -6,6 +6,7 @@ const SearchBox = ({searchChange}) => {
     return (
         <div className='input_container'>
             <input 
+                arial-label='search countries and areas'
                 className='form-control' 
                 type='search' 
                 placeholder='search countries and areas'

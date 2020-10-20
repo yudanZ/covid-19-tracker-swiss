@@ -2,7 +2,7 @@ import React from 'react';
 import './overViewInfo.css';
 
 const OverViewInfo = (props) => {
-    //console.log(props.latestInfo)
+    console.log(props.latestInfo)
     return (
         <div className='overview-container'>
             <h2>New Coronavirus:Situation in Switzerland </h2>
