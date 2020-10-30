@@ -56,7 +56,7 @@ class ListCountries extends React.Component{
                 If a country is on the list, this includes all of its areas, islands and overseas territories – even if they are not listed separately. Switzerland’s neighbouring countries are exempted from this regulation. In the case of these countries, it is not the entire country that is listed, but rather regions. Further information in this regard can be found on the page
                 </p>
                 <p><strong> List of countries and areas shows below</strong></p>
-                <p><strong> List valid upon arriving in Switzerland from 12.10.2020</strong></p>
+                <p><strong> List valid upon arriving in Switzerland from 29.10.2020</strong></p>
 
                 <p><strong><a  href='https://www.bag.admin.ch/bag/en/home/krankheiten/ausbrueche-epidemien-pandemien/aktuelle-ausbrueche-epidemien/novel-cov/empfehlungen-fuer-reisende/quarantaene-einreisende.html'>More Info Here</a></strong></p>
                 <div>
